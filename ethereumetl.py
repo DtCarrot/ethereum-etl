@@ -22,5 +22,8 @@
 
 
 from ethereumetl.cli import cli
+from dotenv import load_dotenv
+
+load_dotenv()
 
 cli()
